@@ -1,0 +1,2 @@
+echo "python ../JsonSearch.py -f ../example.json status ACTIV"
+python ../JsonSearch.py -f ../example.json status ACTIV

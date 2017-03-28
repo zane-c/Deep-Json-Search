@@ -1,0 +1,2 @@
+echo "python ../JsonSearch.py -f ../example.json firstName"
+python ../JsonSearch.py -f ../example.json firstName
