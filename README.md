@@ -10,8 +10,8 @@
 
     python JsonSearch.py -f `<file>` `<key>` [OPTIONAL: `<value>`]
 
-The main submission. It searches through a specificed json `<file>` for 
-occurrences of the `<key>` and partial match or full match of `<value>` if 
+Searches through a specificed json `<file>` for 
+occurrences of the `<key>` and optionally, partial match or full match of `<value>` if 
 supplied as an argument. Deep/nested search finds items even in nested 
 json objects.
 
@@ -20,8 +20,7 @@ json objects.
 * JsonSearchNonRecursive.py:
 
 Mostly the same as above but only searches through first layer of
-json object (Non-deep search). Added both files since the spec did not 
-specify search depth.
+json object (Non-deep search).
 
 
 ## Usage
